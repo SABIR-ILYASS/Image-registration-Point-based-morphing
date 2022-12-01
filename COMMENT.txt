@@ -1,0 +1,7 @@
+Plus qu'on prend nodeSpacing petite plus que les points sont lentement espacés pour faire le recalage d'une image à la suite de l'autre. 
+Et plus nodeSpacing est grand est plus les points sont rapidement espacés, et donc on aura des images intermédiaires très proches de 
+l’image "mouving" après quelques images intermédiaires.
+
+Par conséquent, il faut choisir un nodeSpacing qui ni très petit (pour éviter le recalage lent et donc avoir une transition brusque 
+sur les dernières images intérimaires) et ni grand (pour éviter le recalage rapide sur les premières images intermédiaires et donc 
+avoir le reste des images assez similaire à l'image "mouving"). 
